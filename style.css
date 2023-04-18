@@ -1,5 +1,5 @@
 body{
-    background-image: url(imagens/planofundo.jpg);
+    background: url(imagens/planofundo.jpg);
     background-size: cover;
     text-align: left;
     margin: 800px 0px 0px 900px;
@@ -58,4 +58,10 @@ ul li a:hover{
 
 .botao:hover{
     opacity:0.8;
+}
+
+@media (max-width: 640px){
+    body{
+        background:black;
+    }
 }
