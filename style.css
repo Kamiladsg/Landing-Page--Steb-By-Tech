@@ -4,7 +4,8 @@ body{
     text-align: left;
     margin: 800px 0px 0px 900px;
     font-family: 'Playfair Display', serif;
-    color:#634428;
+    color:#4a3214;
+    margin: auto;
 }
 
 h1{
@@ -18,9 +19,10 @@ p{
   font-size: 40px;
   font-weight: bold;  
   margin: 0;
+  opacity: 0.8;
 }
 span{
-    color:#305417;   
+    color:#41591C;   
 }
 
 ul{
@@ -34,9 +36,9 @@ li{
 }
 
 ul li a{
-    color:  #3a5217 ;
+    color:  #41591C ;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 5px;
 }
 
@@ -51,8 +53,8 @@ ul li a:hover{
 
 .botao{
     text-decoration: none;
-    color: #3a5217;
-    background-color:#699f434e;
+    color: #1e3103;
+    background-color:#4673023b;
     padding:10px 15px ;
 }
 
@@ -62,6 +64,25 @@ ul li a:hover{
 
 @media (max-width: 640px){
     body{
-        background:black;
+        background: url(imagens/planofundoP.jpg);
+        text-align: center;
+        margin: auto;
     }
+
+    h1{
+       font-size:70px ; 
+       margin-bottom: 70px ;
+       padding-top: 180px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    .segundo-paragrafo{
+        margin-top: 60px
+    }
+
+    
+
 }
